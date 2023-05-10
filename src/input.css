@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  li a {
+    transition: all 400ms;
+  }
+
+  li a:hover {
+    background-color: #ff6f00;
+    color: #fff;
+  }
+
+  a.active {
+    background-color: #ff6f00;
+    color: #fff;
+    fill: #fff;
+  }
+}

@@ -1,0 +1,16 @@
+#root {
+  height: 100vh;
+  background-color: #fefefe;
+  color: #3f3d56;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
