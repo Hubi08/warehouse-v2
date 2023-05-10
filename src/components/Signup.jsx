@@ -22,7 +22,7 @@ export default function Signup() {
     const result = await onLogin(user, password);
 
     if (result && result.error) {
-      console.log(result.msg);
+      console.log(result.message);
     }
   };
 
