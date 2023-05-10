@@ -75,11 +75,7 @@ export default function Signup() {
 
               <span className='absolute inset-y-0 end-0 grid w-10 place-content-center'>
                 <button type='button' onClick={handleShowPassword}>
-                  {showPassword ? (
-                    <VisibilityOffIcon sx={{ color: '#3f3d56' }} />
-                  ) : (
-                    <VisibilityIcon sx={{ color: '#3f3d56' }} />
-                  )}
+                  {showPassword ? <VisibilityOffIcon /> : <VisibilityIcon />}
                 </button>
               </span>
             </div>
